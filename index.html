@@ -2,187 +2,121 @@
 <html>
 
 <head>
-	<title>Max Lattunen</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="styles.css">
+	<title>maxla</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
-	<article>
-		<section id="top">
-			<div>
-				<h2>Max Lattunen</h2>
-				<h3>Hobbyist coder</h3>
-				<p>
-					I enjoy reversing things and developing tools to automate menial tasks. I program mainly in Go, C++,
-					and JavaScript.
-					<br>
-					I am also familiar with Java, Python, and C.
-					<br>
-					I intend to learn Rust.
-				</p>
-			</div>
-			<div>
-				<h3>Links</h3>
-				<ul>
-					<li>
-						<a href="https://github.com/0mlml">GitHub</a>
-					</li>
-				</ul>
-			</div>
-		</section>
-		<section id="projects">
-			<div>
-				<h3>Projects/languages</h3>
-			</div>
-			<nav class="language-nav">
-				<a href="#go">
-					<p>Go</p>
-				</a>
-				<a href="#cpp">
-					<p>C++</p>
-				</a>
-				<a href="#js">
-					<p>JavaScript</p>
-				</a>
-				<!-- <a href="#python">
-					<p>Python</p>
-				</a> -->
-				<!-- <a href="#java">
-					<p>Java</p>
-				</a> -->
-				<a href="#c">
-					<p>C</p>
-				</a>
-			</nav>
-			<div class="language" id="go">
-				<span>
-					<img src="img/poorly_drawn_gopher.png">
-					<h3>Go</h3>
-				</span>
-				<p>I mainly have used go to learn about backend server design. I also use it
-					when I need better
-					performance than Python or Javascript but cannot be bothered to <del>struggle with</del>write C++.
-				</p>
-				<p>Some of my projects in Go:</p>
-				<ul>
-					<li>
-						<a href="https://github.com/0mlml/discord-message-downloader">Discord
-							message downloader</a>
-						<br>
-						Downloads all messages from a discord server. Uses the discord API.
-						Curiously I spent more time on the logging than the actual functionality.
-					</li>
-					<li>
-						<a href="https://github.com/0mlml/chesshook-intermediary">Chesshook
-							intermediary</a>
-						<br>
-						Allows chesshook to communicate with an external engine running on the same or different
-						machine through the websocket protocol. I tried to make it not destroy itself if many people
-						try to use it at once, but I have not tested it as I don't see it necessary for my use.
-				</ul>
-			</div>
-			<div class="language" id="cpp">
-				<span>
-					<img src="img/poorly_drawn_cpp.png">
-					<h3>C++</h3>
-				</span>
-				<p>
-					I mainly use C++ for where I need the performance. It is also my go-to language for anything low
-					level.
-				</p>
-				<p>Some of my projects in C++:</p>
-				<ul>
-					<li>
-						<a href="https://github.com/0mlml/google-doodle-halloween-2016">Google doodle halloween 2016
-							helper</a>
-						<br>
-						Keyboard controls for the doodle. Also has a button to rapidly draw all the shapes.
-					</li>
-					<li>
-						<a href="https://github.com/0mlml/projecteuler">Project Euler Solutions</a>
-						<br>
-						Solutions to some of the problems on projecteuler.net. Not very original or very good.
-				</ul>
-			</div>
-			<div class="language" id="js">
-				<span>
-					<img src="img/poorly_drawn_js.png">
-					<h3>JavaScript</h3>
-				</span>
-				<p>I mainly use JavaScript for userscripts. I have also used it where performance is key, completely
-					nullifying any savings in development time.
-				</p>
-				<p>Some of my projects in JavaScript:</p>
-				<ul>
-					<li>
-						<a href="https://github.com/0mlml/chesshook">Chesshook</a>
-						<br>
-						Userscript that adds small quality of life tweaks to chess.com such as rendering hanging pieces,
-						automatically queuing, and an 1900 rated engine that can automatically play moves.
-					</li>
-					<li>
-						<a href="https://github.com/0mlml/khansolver">Khansolver</a>
-						<br>
-						Userscript that prints out the answer to Khan Academy math problems.
-					</li>
-					<li>
-						<a href="https://github.com/0mlml/ballsim">Ballsim</a>
-						<br>
-						Physics simulation of balls colliding with each other.
-					</li>
-				</ul>
-			</div>
-			<div class="language" id="py">
-				<span>
-					<img src="img/poorly_drawn_python.png">
-					<h3>Python</h3>
-				</span>
-				<p>I use Python for its intended purpose: one-off scripts and machine learning.</p>
-				<p>Some of my projects in Python:</p>
-				<ul>
-					<li>
-						<a href="placeholder"></a>
-						<br>
-						placeholder
-					</li>
-				</ul>
-			</div>
-			<div class="language" id="java">
-				<span>
-					<img src="img/poorly_drawn_java.png">
-					<h3>Java</h3>
-				</span>
-				<p>I have used Java in the past, mostly related to Minecraft.</p>
-				<p>Some of my projects in Java:</p>
-				<ul>
-					<li>
-						<a href="placeholder"></a>
-						<br>
-						placeholder
-					</li>
-				</ul>
-			</div>
-			<div class=" language" id="c">
-				<span>
-					<img src="img/poorly_drawn_c.png">
-					<h3>C</h3>
-				</span>
-				<p>I have used C for a few projects. I like the simplicity of C.</p>
-				<p>Some of my projects in C:</p>
-				<ul>
-					<li>
-						<a href="https://github.com/0mlml/ballsim/tree/c">Ballsim</a>
-						<br>
-						Physics simulation of balls colliding with each other. I made this to learn about C.
-						It is
-						simply a port of the JavaScript version. I did not port mouse controls.
-					</li>
-				</ul>
-			</div>
-		</section>
-	</article>
+	<div class="header">
+		<!-- TODO: take photo that isn't awful -->
+		<!-- <img src="images/profile.jpg" alt="Profile Photo" class="profile-photo"> -->
+		<h1 class="name">Max Lattunen</h1>
+		<h3 class="title">Hobbyist Full Stack Developer</h3>
+		<div class="links">
+			<p>links:</p>
+			<a href="https://github.com/0mlml" target="_blank" class="link">github</a>
+			<a href="https://www.linkedin.com/in/maxlattunen/" target="_blank" class="link">linkedin</a>
+		</div>
+	</div>
+
+	<div class="projects">
+		<a class="project" href="https://github.com/0mlml/chesshook" target="_blank">
+			<img src="img/chesshook.png" alt="Screenshot of Chesshook in action" class="project-photo">
+			<h2 class="project-title">Chesshook</h2>
+			<p class="project-description">A userscript that assists play on chess.com from simply rendering hanging pieces or
+				automatically requeueing to automatically playing the best move.</p>
+			<p class="project-language">Written in JavaScript. Works with most if not all browsers.</p>
+		</a>
+
+		<a class="project" href="https://github.com/0mlml/chesshook-intermediary" target="_blank">
+			<img src="img/chesshook-intermediary.png" alt="Screenshot of the Chesshook intermediary server"
+				class="project-photo">
+			<h2 class="project-title">Chesshook-intermediary</h2>
+			<p class="project-description">A websocket server that allows the Chesshook userscript utilize a regular
+				chess engine.</p>
+			<p class="project-language">Written in Go</p>
+		</a>
+
+		<a class="project" href="https://github.com/0mlml/commandlineclicker" target="_blank">
+			<img src="img/commandlineclicker.png" alt="Inputting and using a simple toggle autoclicker" class="project-photo">
+			<h2 class="project-title">Commandlineclicker</h2>
+			<p class="project-description">A minimalist and blazingly fast autoclicker with a terse scripting
+				language.</p>
+			<p class="project-language">Written in C. Linux and Windows</p>
+		</a>
+
+		<a class="project" href="https://github.com/0mlml/cpstest" target="_blank">
+			<img src="img/cpstest.png" alt="A screenshot of the CPS tester output and void" class="project-photo">
+			<h2 class="project-title">CPS test</h2>
+			<p class="project-description">Desktop CPS test that spawns a click void to test ludcriously fast autoclickers.
+			</p>
+			<p class="project-language">Written in C. Linux and Windows</p>
+		</a>
+
+		<a class="project" href="https://github.com/0mlml/wordhunt" target="_blank">
+			<img src="img/wordhunt-solver.png" alt="Screenshot of the wordhunt solver gui" class="project-photo">
+			<h2 class="project-title">Gamepigeon Wordhunt solver</h2>
+			<p class="project-description">A simple web app that allows the user to solve boards from the popular iOS iMessage
+				game 'word hunt'.</p>
+			<p class="project-language">HTML page with JavaScript</p>
+		</a>
+
+		<a class="project" href="https://github.com/0mlml/cf-dyndns" target="_blank">
+			<img src="img/cfdyndns.png" alt="A screenshot of the cloudflare dyndns software config example"
+				class="project-photo">
+			<h2 class="project-title">Cloudflare dyndns</h2>
+			<p class="project-description">A simple executable that parses a config file and updates a cloudflare dns record's
+				IP</p>
+			<p class="project-language">Written in Go</p>
+		</a>
+
+		<a class="project" href="https://github.com/0mlml/anagrams/tree/pages" target="_blank">
+			<img src="img/anagrams.png" alt="A screenshot of the anagrams web app" class="project-photo">
+			<h2 class="project-title">Anagram solver</h2>
+			<p class="project-description">A simple web app that allows a user to input characters and solve anagrams. The
+				'main' branch in the same repository is a command line version.</p>
+			<p class="project-language">HTML page with JavaScript<br>CLI version written in C</p>
+		</a>
+
+		<a class="project" href="https://github.com/0mlml/ballsim" target="_blank">
+			<img src="img/ballsim.png" alt="A screenshot of the ballsim web app" class="project-photo">
+			<h2 class="project-title">Ball Simulation</h2>
+			<p class="project-description">A simple web app that allows a user to play with ball physics.</p>
+			<p class="project-language">HTML page with JavaScript</p>
+		</a>
+
+		<a class="project" href="https://github.com/0mlml/projecteuler" target="_blank">
+			<img src="img/projecteuler.png" alt="A screenshot of the project euler website" class="project-photo">
+			<h2 class="project-title">Project Euler</h2>
+			<p class="project-description">A collection of various solutions. Some of the solutions may have used Stephan
+				Brumme's blog (https://euler.stephan-brumme.com/) as a reference.</p>
+			<p class="project-language">Mostly C++, some Java, some JS</p>
+		</a>
+
+		<a class="project" href="https://github.com/0mlml/discord-message-downloader" target="_blank">
+			<img src="img/discordmessagedownloader-crop.jpg" alt="A screenshot of the downloader" class="project-photo">
+			<h2 class="project-title">Discord Message Downloader</h2>
+			<p class="project-description">A program to download all messages in a discord server using a bot token. Has
+				multithreading. Contains a pretty cool logger to show progress.</p>
+			<p class="project-language">Written in Go using 'bwmarrin/discordgo'</p>
+		</a>
+
+		<a class="project" href="https://github.com/0mlml/google-doodle-halloween-2016" target="_blank">
+			<img src="img/googledoodlehalloween2016.png" alt="A screenshot of the Google doodle" class="project-photo">
+			<h2 class="project-title">Keyboard control from Google doodle Halloween 2016</h2>
+			<p class="project-description">A program that allows you to draw the required shapes to play the Google doodle
+				with your keyboard.</p>
+			<p class="project-language">Written in C++. A python version exists in the repository.</p>
+		</a>
+
+		<a class="project" href="https://github.com/0mlml/khansolver" target="_blank">
+			<img src="img/khansolver.png" alt="Screenshot of Khansolver menu" class="project-photo">
+			<h2 class="project-title"><em>Broken</em> - Khansolver</h2>
+			<p class="project-description">A userscript that intercepts XML requests to display question answers to the user.
+				Broken by UI updates.</p>
+			<p class="project-language">Written in JavaScript.</p>
+		</a>
+	</div>
 </body>
 
 </html>
